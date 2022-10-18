@@ -64,6 +64,10 @@
     cursor: pointer;
 }
 
+.loginButton:disabled{
+    cursor:not-allowed;
+}
+
 .loginForgot{
     text-align: center;
     color:  rgba(41, 51, 240, 0.487);
