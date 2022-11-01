@@ -1,10 +1,13 @@
-Here is the microservice I implemented for your project using WeatherStackAPI for your weather tracker app.
+## A. How to Request for Data 
+    Simply input a city or zipcode to request for data from the API.
+    
+    An example call would look like this
+    City: Corvallis
+    or
+    Zipcode: 97331
 
-A. To request for data from the microservice you have to make a fetch call to the API. For example 
-
-fetch(`https://api.weatherstack.com/current?access_key=6e046fe6f4093da8d13dbdcedb655fb6&query=New%20York`)
-    .then(res => res.json()).then(console.log);
-
-This will request for data in the console.
-
-B. To recieve data, use the UI I created in the index.html file and an input field should be created allowing you to request and recieve weather data for a city/zipcode.
+## B. How to Recieve Data
+    After the microservices is able to verify and successfully recieve the request. The data will then be sent to the webpage showing the weather data in real time. 
+    
+## UML Sequence Diagram
+![screenshot](umldiagram.png)
