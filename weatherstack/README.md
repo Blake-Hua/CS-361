@@ -7,4 +7,4 @@ fetch(`https://api.weatherstack.com/current?access_key=6e046fe6f4093da8d13dbdced
 
 This will request for data in the console.
 
-B. Once the UI is presented you can input a city or zipcode into the input fields and recieve data from the API.
+B. To recieve data, use the UI I created in the index.html file and an input field should be created allowing you to request and recieve weather data for a city/zipcode.
